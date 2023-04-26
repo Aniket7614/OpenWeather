@@ -6,6 +6,7 @@ target 'OpenWeather' do
   use_frameworks!
 
   # Pods for OpenWeather
+pod 'Alamofire'
 
   target 'OpenWeatherTests' do
     inherit! :search_paths
