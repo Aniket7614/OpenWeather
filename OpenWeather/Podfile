@@ -7,6 +7,7 @@ target 'OpenWeather' do
 
   # Pods for OpenWeather
 pod 'Alamofire'
+pod 'lottie-ios'
 
   target 'OpenWeatherTests' do
     inherit! :search_paths
